@@ -1,0 +1,13 @@
+{
+  "name": "babel-extends-object-bug",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "npm run build && node lib/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
